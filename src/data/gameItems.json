@@ -1,0 +1,290 @@
+{
+  "juego": "R.E.P.O (2025 Horror)",
+  "categorias": [
+    {
+      "nombre": "Armas",
+      "objetos": [
+        {
+          "nombre": "Inflatable Hammer",
+          "precio": 9000,
+          "descripcion": "Golpea enemigos, pero explota al chocar con una superficie plana.",
+          "efecto": null,
+          "movimiento": null,
+          "imagen": "https://res.cloudinary.com/conectart/image/upload/v1745498524/rs7izhxtu95kxsdddybk.jpg"
+        },
+        {
+          "nombre": "Sword",
+          "precio": 25000,
+          "descripcion": "Ataques de corto alcance.",
+          "efecto": null,
+          "movimiento": null
+        },
+        {
+          "nombre": "Frying Pan",
+          "precio": 25000,
+          "descripcion": "Daño lateral continuo.",
+          "efecto": null,
+          "movimiento": null,
+          "imagen": "https://res.cloudinary.com/conectart/image/upload/v1745499317/zca1ck8mv1ajsyfpnwwd.jpg"
+        },
+        {
+          "nombre": "Baseball Bat",
+          "precio": 26000,
+          "descripcion": "Ideal para enemigos cercanos.",
+          "efecto": null,
+          "movimiento": null
+        },
+        {
+          "nombre": "Sledge Hammer",
+          "precio": 45000,
+          "descripcion": "Golpes pesados y daño contundente.",
+          "efecto": null,
+          "movimiento": null
+        },
+        {
+          "nombre": "Tranq Gun",
+          "precio": 16000,
+          "descripcion": "Disparo que duerme temporalmente al enemigo.",
+          "efecto": null,
+          "movimiento": null,
+          "imagen": "https://res.cloudinary.com/conectart/image/upload/v1745499146/xaumierkyce8tvqaxupr.jpg"
+        },
+        {
+          "nombre": "Gun",
+          "precio": 45000,
+          "descripcion": "Daño estándar a distancia.",
+          "efecto": null,
+          "movimiento": null
+        },
+        {
+          "nombre": "Shotgun",
+          "precio": 94000,
+          "descripcion": "Mucho más daño en distancias cortas.",
+          "efecto": null,
+          "movimiento": null
+        }
+      ]
+    },
+    {
+      "nombre": "Drones y Mejoras",
+      "objetos": [
+        {
+          "nombre": "Strength Upgrade Pack",
+          "precio": 7000,
+          "descripcion": "Permite cargar objetos más pesados (¡incluidos monstruos!).",
+          "efecto": null,
+          "movimiento": null,
+          "imagen": "https://res.cloudinary.com/conectart/image/upload/v1745499624/ejkjrpy6ufdis0uxxlf2.jpg"
+        },
+        {
+          "nombre": "Stamina Upgrade Pack",
+          "precio": 2000,
+          "descripcion": "+10 puntos de resistencia.",
+          "efecto": null,
+          "movimiento": null,
+          "imagen": "https://res.cloudinary.com/conectart/image/upload/v1745499624/bchtdlboas5cfphyrn8r.jpg"
+        },
+        {
+          "nombre": "Health Upgrade Pack",
+          "precio": 7000,
+          "descripcion": "+20 HP.",
+          "efecto": null,
+          "movimiento": null,
+          "imagen": "https://res.cloudinary.com/conectart/image/upload/v1745499624/khvpc3pp5iaavp9vpioc.jpg"
+        },
+        {
+          "nombre": "Sprint Upgrade Pack",
+          "precio": 8000,
+          "descripcion": "+20% de velocidad al correr.",
+          "efecto": null,
+          "movimiento": null
+        },
+        {
+          "nombre": "Extra Jump Upgrade Pack",
+          "precio": 11000,
+          "descripcion": "Otorga un salto extra.",
+          "efecto": null,
+          "movimiento": null
+        },
+        {
+          "nombre": "Map Player Count Upgrade Pack",
+          "precio": 11000,
+          "descripcion": "Muestra cuántos compañeros siguen vivos.",
+          "efecto": null,
+          "movimiento": null
+        },
+        {
+          "nombre": "Tumble Launch Upgrade Pack",
+          "precio": 5000,
+          "descripcion": "Aumenta distancia de lanzamiento al rodar.",
+          "efecto": null,
+          "movimiento": null
+        },
+        {
+          "nombre": "Radar Upgrade Pack",
+          "precio": 10000,
+          "descripcion": "Visualiza a compañeros en el mapa.",
+          "efecto": null,
+          "movimiento": null
+        },
+        {
+          "nombre": "Range Upgrade Pack",
+          "precio": 7000,
+          "descripcion": "Mejora el rango para recoger objetos.",
+          "efecto": null,
+          "movimiento": null
+        }
+      ]
+    },
+    {
+      "nombre": "Curación",
+      "objetos": [
+        {
+          "nombre": "Small Health Pack",
+          "precio": 4000,
+          "descripcion": "Recupera 25HP.",
+          "efecto": null,
+          "movimiento": null,
+          "imagen": "https://res.cloudinary.com/conectart/image/upload/v1745500624/mshdse1zzii4dr6wsr4o.jpg"
+        },
+        {
+          "nombre": "Medium Health Pack",
+          "precio": 7000,
+          "descripcion": "Recupera 50HP.",
+          "efecto": null,
+          "movimiento": null,
+          "imagen": "https://res.cloudinary.com/conectart/image/upload/v1745500624/nblfh3kasmbtsu5ndqak.jpg"
+        },
+        {
+          "nombre": "Large Health Pack",
+          "precio": 10000,
+          "descripcion": "Recupera 100HP.",
+          "efecto": null,
+          "movimiento": null,
+          "imagen": "https://res.cloudinary.com/conectart/image/upload/v1745500624/tsoy120d5f6dud51msch.jpg"
+        }
+      ]
+    },
+    {
+      "nombre": "Herramientas",
+      "objetos": [
+        {
+          "nombre": "Valuable Tracker",
+          "precio": 15000,
+          "descripcion": "Encuentra objetos valiosos cercanos.",
+          "efecto": null,
+          "movimiento": null,
+          "imagen": "https://res.cloudinary.com/conectart/image/upload/v1745501085/x6ircrz3lic7bwirsh4m.jpg"
+        },
+        {
+          "nombre": "Extraction Tracker",
+          "precio": 6000,
+          "descripcion": "Ubica el siguiente punto de extracción.",
+          "efecto": null,
+          "movimiento": null
+        },
+        {
+          "nombre": "Pocket C.A.R.T.",
+          "precio": 17000,
+          "descripcion": "Crea un carrito portátil.",
+          "efecto": null,
+          "movimiento": null
+        },
+        {
+          "nombre": "C.A.R.T.",
+          "precio": 42000,
+          "descripcion": "Añade un carrito adicional para transportar objetos.",
+          "efecto": null,
+          "movimiento": null,
+          "imagen": "https://res.cloudinary.com/conectart/image/upload/v1745501085/x6ircrz3lic7bwirsh4m.jpg"
+        },
+        {
+          "nombre": "Energy Crystal",
+          "precio": 8000,
+          "descripcion": "Batería para recargar otros ítems.",
+          "efecto": null,
+          "movimiento": null,
+          "imagen": "https://res.cloudinary.com/conectart/image/upload/v1745501084/zw964x8ph5y0ht2naupy.jpg"
+        }
+      ]
+    },
+    {
+      "nombre": "Lanzables",
+      "objetos": [
+        {
+          "nombre": "Stun Grenade",
+          "precio": 3000,
+          "descripcion": "Aturde enemigos, pero no daña.",
+          "efecto": null,
+          "movimiento": null,
+          "imagen": "https://res.cloudinary.com/conectart/image/upload/v1745502985/t4ga6hptn65jikaqmyga.jpg"
+        },
+        {
+          "nombre": "Grenade",
+          "precio": 3000,
+          "descripcion": "Daño directo.",
+          "efecto": null,
+          "movimiento": null,
+          "imagen": "https://res.cloudinary.com/conectart/image/upload/v1745502985/z5vlukpecaenei7hbjbl.jpg"
+        },
+        {
+          "nombre": "Human Grenade",
+          "precio": 2000,
+          "descripcion": "Menor daño, pero más baratas.",
+          "efecto": null,
+          "movimiento": null
+        },
+        {
+          "nombre": "Duct Taped Grenades",
+          "precio": 2000,
+          "descripcion": "Explota y dispersa múltiples mini-granadas. Ideal para pasillos.",
+          "efecto": null,
+          "movimiento": null
+        },
+        {
+          "nombre": "Shockwave Grenade",
+          "precio": 3000,
+          "descripcion": "Daño + aturdimiento.",
+          "efecto": null,
+          "movimiento": null
+        },
+        {
+          "nombre": "Zero Gravity Orb",
+          "precio": 45000,
+          "descripcion": "Crea una zona de gravedad cero.",
+          "efecto": null,
+          "movimiento": null,
+          "imagen": "https://res.cloudinary.com/conectart/image/upload/v1745502985/gjrkxpghlcsfba1n2vp7.jpg"
+        },
+        {
+          "nombre": "Rubber Duck",
+          "precio": 16000,
+          "descripcion": "Bota por todos lados causando daño, y puede explotar.",
+          "efecto": null,
+          "movimiento": null
+        },
+        {
+          "nombre": "Stun Mine",
+          "precio": 3000,
+          "descripcion": "Aturde al activarse al pasar por encima.",
+          "efecto": null,
+          "movimiento": null
+        },
+        {
+          "nombre": "Explosive Mine",
+          "precio": 3000,
+          "descripcion": "Explota al contacto.",
+          "efecto": null,
+          "movimiento": null
+        },
+        {
+          "nombre": "Shockwave Mine",
+          "precio": 3000,
+          "descripcion": "Aturde y daña al contacto.",
+          "efecto": null,
+          "movimiento": null
+        }
+      ]
+    }
+  ]
+}

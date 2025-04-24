@@ -1,103 +1,209 @@
-import Image from "next/image";
+import Link from 'next/link';
+import Image from 'next/image';
+import Navbar from '@/components/Navbar';
+import SearchBar from '@/components/SearchBar';
+import bosses from '@/data/bosses.json';
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+    <main className="pt-16">
+      <Navbar />
+      
+      {/* Hero section */}
+      <section className="relative py-20 px-4 overflow-hidden">
+        <div className="container mx-auto text-center relative z-10">
+          <h1 className="font-display text-5xl md:text-7xl font-bold mb-6 text-white">
+            <span className="text-primary">REPO</span>DEX
+          </h1>
+          <p className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto mb-12">
+            Tu guía completa para sobrevivir en el mundo de R.E.P.O.
+          </p>
+          
+          {/* Search bar */}
+          <div className="max-w-2xl mx-auto mb-16">
+            <SearchBar />
+          </div>
+          
+          {/* Quick stats */}
+          <div className="flex flex-wrap justify-center gap-8 mb-16">
+            <div className="bg-dark-300/50 backdrop-blur-sm px-6 py-4 rounded-lg border border-dark-400">
+              <div className="text-4xl font-display font-bold text-primary">20+</div>
+              <div className="text-gray-400">Entidades</div>
+            </div>
+            <div className="bg-dark-300/50 backdrop-blur-sm px-6 py-4 rounded-lg border border-dark-400">
+              <div className="text-4xl font-display font-bold text-accent">10+</div>
+              <div className="text-gray-400">Mapas</div>
+            </div>
+            <div className="bg-dark-300/50 backdrop-blur-sm px-6 py-4 rounded-lg border border-dark-400">
+              <div className="text-4xl font-display font-bold text-secondary">50+</div>
+              <div className="text-gray-400">Objetos</div>
+            </div>
+          </div>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+      </section>
+      
+      {/* Categories section */}
+      <section className="py-16 px-4 bg-dark-200">
+        <div className="container mx-auto">
+          <h2 className="font-display text-3xl font-bold mb-12 text-center text-white">
+            EXPLORA LA <span className="text-primary">BASE DE DATOS</span>
+          </h2>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl mx-auto">
+            <CategoryCard 
+              href="/bosses" 
+              title="BOSSES" 
+              description="Información detallada sobre todas las entidades del juego."
+              color="primary"
+            />
+          
+            <CategoryCard 
+              href="/objetos" 
+              title="OBJETOS" 
+              description="Catálogo de todos los objetos y armas disponibles."
+              color="secondary"
+            />
+            <CategoryCard 
+              href="/guias" 
+              title="GUÍAS" 
+              description="Consejos y trucos para streamers y jugadores."
+              color="warning"
+            />
+          </div>
+        </div>
+      </section>
+      
+      {/* Featured entities section */}
+      <section className="py-16 px-4">
+        <div className="container mx-auto">
+          <h2 className="font-display text-3xl font-bold mb-12 text-center">
+            ENTIDADES <span className="text-danger">PELIGROSAS</span>
+          </h2>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <EntityCard 
+              id="headman-repo"
+              name="Headman Repo"
+              danger="Extrema"
+              description="Entidad veloz con ataques letales"
+            />
+            <EntityCard 
+              id="bang-repo"
+              name="Bang Repo"
+              danger="Alta"
+              description="Entidad explosiva que aparece en grupos"
+            />
+            <EntityCard 
+              id="rugrat-repo"
+              name="Rugrat Repo"
+              danger="Media"
+              description="Entidad infantil que lanza objetos para hacer daño"
+            />
+          </div>
+          
+          <div className="text-center mt-10">
+            <Link 
+              href="/bosses" 
+              className="inline-block font-display px-8 py-3 bg-dark-300 hover:bg-dark-400 text-primary border border-primary/30 rounded-md transition-colors"
+            >
+              VER TODAS LAS ENTIDADES →
+            </Link>
+          </div>
+        </div>
+      </section>
+    
+    </main>
+  );
+}
+
+// Category card component
+function CategoryCard({ 
+  href, 
+  title, 
+  description, 
+  color 
+}: { 
+  href: string; 
+  title: string; 
+  description: string; 
+  color: 'primary' | 'secondary' | 'accent' | 'warning';
+}) {
+  const colorClasses = {
+    primary: 'from-primary/20 to-transparent border-primary/30 hover:border-primary/60',
+    secondary: 'from-secondary/20 to-transparent border-secondary/30 hover:border-secondary/60',
+    accent: 'from-accent/20 to-transparent border-accent/30 hover:border-accent/60',
+    warning: 'from-warning/20 to-transparent border-warning/30 hover:border-warning/60',
+  };
+  
+  const textColor = {
+    primary: 'text-primary',
+    secondary: 'text-secondary',
+    accent: 'text-accent',
+    warning: 'text-warning',
+  };
+
+  return (
+    <Link 
+      href={href} 
+      className={`block bg-gradient-to-b ${colorClasses[color]} bg-dark-300/50 backdrop-blur-sm p-6 rounded-lg border hover:shadow-lg transition-all duration-300`}
+    >
+      <h3 className={`font-display text-xl font-bold mb-3 ${textColor[color]}`}>{title}</h3>
+      <p className="text-gray-300">{description}</p>
+    </Link>
+  );
+}
+
+// Entity card component
+function EntityCard({ 
+  id, 
+  name, 
+  danger, 
+  description 
+}: { 
+  id: string; 
+  name: string; 
+  danger: 'Baja' | 'Media' | 'Alta' | 'Extrema'; 
+  description: string;
+}) {
+  // Updated danger colors to match the boss detail page
+  const dangerColors = {
+    'Baja': 'bg-green-500/20 text-green-500 border-green-500/30',
+    'Media': 'bg-yellow-500/20 text-yellow-500 border-yellow-500/30',
+    'Alta': 'bg-orange-500/20 text-orange-500 border-orange-500/30',
+    'Extrema': 'bg-red-500/20 text-red-500 border-red-500/30',
+  };
+
+  const boss = bosses.find(b => b.id === id);
+  const imageUrl = boss?.image;
+
+  return (
+    <Link 
+      href={`/bosses/${id}`} 
+      className="group block bg-dark-300/50 backdrop-blur-sm rounded-lg border border-dark-400 overflow-hidden hover:shadow-neon transition-all duration-300"
+    >
+      <div className="h-48 bg-dark-400 relative">
+        {imageUrl ? (
           <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
+            src={imageUrl}
+            alt={name}
+            fill
+            className="object-cover object-center group-hover:scale-105 transition-transform duration-300"
           />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+        ) : (
+          <div className="h-full flex items-center justify-center">
+            <div className="text-6xl opacity-30 group-hover:opacity-50 transition-opacity">👁️</div>
+          </div>
+        )}
+      </div>
+      <div className="p-6">
+        <h3 className="font-display text-xl font-bold mb-2 text-white group-hover:text-primary transition-colors">{name}</h3>
+        <div className="mb-4">
+          <span className={`inline-block px-3 py-1 rounded-full text-xs font-semibold ${dangerColors[danger]}`}>
+            Peligrosidad: {danger}
+          </span>
+        </div>
+        <p className="text-gray-400">{description}</p>
+      </div>
+    </Link>
   );
 }

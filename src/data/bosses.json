@@ -1,0 +1,210 @@
+[
+  {
+    "id": "animal-repo",
+    "nombre": "Animal Repo",
+    "descripcionCorta": "Entidad arachnida que entra en pánico al verte y huye",
+    "descripcionCompleta": "Spider Repo es una criatura que se asusta fácilmente. Cuando te ve, entra en pánico y sale corriendo, intentando evitar cualquier confrontación. Si interrumpes su camino o la alcanzas, puede causarte algo de daño, pero nunca te eliminará.",
+    "peligrosidad": "Baja",
+    "ubicacion": "Pasillos, Áreas de Almacenamiento",
+    "debilidades": ["Luz fuerte", "Sonidos altos"],
+    "estrategia": "Sigue su recorrido con cautela. Si logras interrumpir su huida, procura mantener tu distancia para evitar que te haga daño. No persigas a la araña si te ve, ya que sólo huirá más rápido.",
+    "image": "https://res.cloudinary.com/conectart/image/upload/v1744832660/nw4ocd47kixfvouchm0e.png"
+  },
+  {
+    "id": "bang-repo",
+    "nombre": "Bang Repo",
+    "descripcionCorta": "Entidad explosiva que aparece en grupos y se autodestruye al acercarse",
+    "descripcionCompleta": "Bang Repo aparece en grupos de 3 a 4 entidades. En cuanto te vean, se preparan para explotar a los pocos segundos, lo que te obliga a huir rápidamente. Si los agarras, puedes lanzarlos a otras zonas para evitar que te dañen con su explosión.",
+    "peligrosidad": "Media",
+    "ubicacion": "Pasillos, Áreas Abiertas",
+    "debilidades": ["Distancia", "Fuerza bruta"],
+    "estrategia": "Corre lejos de los Bang Repo tan pronto como los veas. Usa la stamina a tu favor para evitar que exploten cerca de ti. Si tienes la oportunidad, agárralos y lánzalos a zonas seguras.",
+    "image": "https://res.cloudinary.com/conectart/image/upload/v1744830526/febgyq7qjs6zkvffkswt.png"
+  },
+  {
+    "id": "clown-repo",
+    "nombre": "Clown Repo",
+    "descripcionCorta": "Entidad payaso que te persigue y ataca con láser y patadas",
+    "descripcionCompleta": "Clown Repo es un payaso que te localiza rápidamente y no duda en perseguirte. Una vez cerca, lanza un láser desde su antena y ataca a distancia, además de usar una patada fuerte si estás oculto o cerca de él.",
+    "peligrosidad": "Alta",
+    "ubicacion": "Salones de Fiesta, Áreas Circulares",
+    "debilidades": ["Ruidos fuertes", "Ataques rápidos"],
+    "estrategia": "Mantente en movimiento constante para evitar el láser. Si te persigue, cambia de dirección rápidamente para dificultar su ataque. Si estás oculto, prepárate para esquivar su patada.",
+    "image": "https://res.cloudinary.com/conectart/image/upload/v1744821758/hqxin69ceeyy3gzmyaqj.png"
+  },
+  {
+    "id": "bowtie-repo",
+    "nombre": "Bowtie Repo",
+    "descripcionCorta": "Entidad con corbata que aturde a los jugadores con gritos",
+    "descripcionCompleta": "Bowtie Repo es una entidad que, al verte, grita de manera fuerte, provocando que tu personaje se aturda y retroceda involuntariamente. Durante este tiempo, se vuelve difícil esquivarlo o atacarlo.",
+    "peligrosidad": "Media",
+    "ubicacion": "Oficinas, Pasillos Largos",
+    "debilidades": ["Resistencia a sonidos", "Velocidad de movimiento"],
+    "estrategia": "Mantén la calma y esquiva los gritos de Bowtie Repo. Si eres atrapado por su grito, retrocede lo más rápido posible y prepárate para continuar el combate a distancia.",
+    "image": "https://res.cloudinary.com/conectart/image/upload/v1744830630/f57a7txyuxszr46vy0pp.png"
+  },
+    {
+      "id": "ceiling-eye-repo",
+      "nombre": "Ceiling Eye Repo",
+      "descripcionCorta": "Entidad con ojo en el techo que te une a él con un rayo",
+      "descripcionCompleta": "Ceiling Eye Repo se encuentra en el techo de salas aleatorias y te unirá a él mediante un rayo naranja que te cambiará la voz y te causará daño poco a poco. Para liberarte, necesitas esconderte o evitar el contacto visual.",
+      "peligrosidad": "Alta",
+      "ubicacion": "Salas Cerradas, Pasillos Oscuros",
+      "debilidades": ["Evitar el contacto visual", "Escapatoria rápida"],
+      "estrategia": "Mantente fuera del campo de visión de Ceiling Eye Repo. Si te conecta con su rayo, encuentra un lugar donde no pueda alcanzarte o escóndete para perder la conexión.",
+      "image": "https://res.cloudinary.com/conectart/image/upload/v1744821810/la04xzpqjzvlxn8aolgq.png"
+    },
+    {
+      "id": "quack-repo",
+      "nombre": "Quack Repo",
+      "descripcionCorta": "Entidad parecida a un pato que cambia su pico por una boca de dientes",
+      "descripcionCompleta": "Quack Repo comienza como un pato inofensivo, pero al ser agarrado, su pico se transforma en una boca llena de dientes, causando daño continuo. Lo mejor es dejarlo tranquilo y esconderse si lo ves.",
+      "peligrosidad": "Media",
+      "ubicacion": "Áreas Acuáticas, Zonas Abiertas",
+      "debilidades": ["Silencio", "Evitar el contacto físico"],
+      "estrategia": "Si ves a Quack Repo, mantén la distancia y no lo agarres. Si te atrapa, suelta su pico rápidamente y busca un refugio seguro.",
+      "image": "https://res.cloudinary.com/conectart/image/upload/v1744830826/ycr6wsoiderrvuhdqt8l.png"
+    },
+    {
+      "id": "mentalist-repo",
+      "nombre": "Mentalist Repo",
+      "descripcionCorta": "Entidad que ataca con un orbe morado que te hace flotar",
+      "descripcionCompleta": "Mentalist Repo utiliza un orbe morado que te hace levitar. Si no logras bajar de esta levitación a tiempo, recibirás daño continuo hasta morir. Es importante deshacerte del orbe rápidamente para evitar que te elimine.",
+      "peligrosidad": "Alta",
+      "ubicacion": "Salas de Estudio, Áreas Elevadas",
+      "debilidades": ["Rápido movimiento", "Ataques a distancia"],
+      "estrategia": "Tan pronto como el orbe te atrape, busca formas de bajarte antes de que cause demasiado daño. Mantén la distancia y usa armas a larga distancia si es posible.",
+      "image": "https://res.cloudinary.com/conectart/image/upload/v1744822001/dphzmpdffszjsc4xfbsc.png"
+    },
+    {
+      "id": "gnome-repo",
+      "nombre": "Gnome Repo",
+      "descripcionCorta": "Entidad pequeña que aparece en grupos y destruye objetos cercanos",
+      "descripcionCompleta": "Gnome Repo aparece en grupos de 3 a 5 entidades. Si te ven, comenzarán a destruir todos los objetos que tengas en el carro. Es mejor agarrarlos y lanzarlos contra las paredes para eliminar a varios al mismo tiempo.",
+      "peligrosidad": "Baja",
+      "ubicacion": "Salas Pequeñas, Almacenes",
+      "debilidades": ["Fuerza física", "Ataques rápidos"],
+      "estrategia": "Evita dejar que te rodeen. Lanza a los gnomos contra las paredes para eliminarlos rápidamente y proteger tus objetos.",
+      "image": "https://res.cloudinary.com/conectart/image/upload/v1744832661/pgms1eou6h6mnfbs4dbw.png"
+    },
+    {
+        "id": "headman-repo",
+        "nombre": "Headman Repo",
+        "descripcionCorta": "Entidad veloz con ataques letales",
+        "descripcionCompleta": "Headman Repo es una de las entidades más letales del juego. Una vez que te detecta, es casi imposible escapar. Un solo ataque puede reducir drásticamente tu salud.",
+        "peligrosidad": "Extrema",
+        "ubicacion": "Pasillos Principales, Áreas Abiertas",
+        "debilidades": ["Zonas seguras", "Distracciones sonoras"],
+        "estrategia": "Evita ser detectado. Si lo ves, usa distracciones o habilidades que te permitan esconderte o ralentizarlo, ya que su ataque puede ser definitivo.",
+        "image": "https://res.cloudinary.com/conectart/image/upload/v1744820389/z5qdqjccbtkauj42motl.png"
+      },
+      {
+        "id": "hidden-repo",
+        "nombre": "Hidden Repo",
+        "descripcionCorta": "Entidad sigilosa que deja huellas negras",
+        "descripcionCompleta": "Hidden Repo solo es visible si estás muy atento. Deja un rastro de huellas negras por donde pasa. Si logra atraparte, te llevará a otra zona del mapa, lo que puede ser fatal si estás solo.",
+        "peligrosidad": "Alta",
+        "ubicacion": "Pasillos Estrechos, Habitaciones Vacías",
+        "debilidades": ["Atención al entorno", "Movimiento constante"],
+        "estrategia": "Busca las huellas negras para anticipar su ubicación. Mantente alerta y en movimiento para no ser atrapado por sorpresa.",
+        "image": "https://res.cloudinary.com/conectart/image/upload/v1744822099/ec2ceqhjijkogm5ui1ek.png"
+      },
+      {
+        "id": "huntsman-repo",
+        "nombre": "Huntsman Repo",
+        "descripcionCorta": "Entidad ciega que ataca al oír ruido",
+        "descripcionCompleta": "Huntsman Repo es ciego, pero extremadamente sensible al sonido. Si detecta ruido, disparará sin dudarlo, y su ataque puede eliminarte de un solo golpe.",
+        "peligrosidad": "Extrema",
+        "ubicacion": "Áreas Cerradas, Zonas Silenciosas",
+        "debilidades": ["Silencio absoluto", "Caminar agachado"],
+        "estrategia": "Muévete con sigilo absoluto. No corras, no hables, y no uses objetos ruidosos mientras esté cerca. Coordina con tu equipo si es multijugador.",
+        "image": "https://res.cloudinary.com/conectart/image/upload/v1744820703/goab1ydqucldjisfovrb.png"
+      },
+      {
+        "id": "robe-repo",
+        "nombre": "Robe Repo",
+        "descripcionCorta": "Entidad con forma física y forma de humo",
+        "descripcionCompleta": "Robe Repo tiene dos formas: una física, que embiste directamente, y otra en forma de humo negro que es más difícil de detectar. Es agresivo y rápido cuando cambia entre sus formas.",
+        "peligrosidad": "Alta",
+        "ubicacion": "Pasillos y Salas Grandes",
+        "debilidades": ["Evitar contacto visual", "Movimiento lateral"],
+        "estrategia": "Evita el contacto directo. Si ves humo negro, aléjate rápidamente. Usa caminos alternativos para esquivar sus embestidas.",
+        "image": "https://res.cloudinary.com/conectart/image/upload/v1744822174/l9qi21lnn8ekw90jk3i2.png"
+      },
+      {
+        "id": "reaper-repo",
+        "nombre": "Reaper Repo",
+        "descripcionCorta": "Entidad con dos guadañas que ataca sin previo aviso",
+        "descripcionCompleta": "Reaper Repo es una criatura extremadamente peligrosa. Tiene dos guadañas como brazos y las activa rápidamente en cuanto te ve, dejándote sin posibilidad de escapar si estás cerca.",
+        "peligrosidad": "Extrema",
+        "ubicacion": "Pasillos Largos, Zonas de Alerta",
+        "debilidades": ["Ataques sorpresa", "Evadir en zigzag"],
+        "estrategia": "Evita estar en su línea de visión. Si lo detectas, huye en patrones erráticos para esquivar sus guadañas, y no te detengas hasta llegar a una zona segura.",
+        "image": "https://res.cloudinary.com/conectart/image/upload/v1744820858/ftump1p0ixom7vqsxaf1.png"
+      },
+      {
+        "id": "spewer-repo",
+        "nombre": "Spewer Repo",
+        "descripcionCorta": "Entidad molesta que causa vómito pero no mata",
+        "descripcionCompleta": "Spewer Repo no es letal, pero sí muy molesto. Se te lanza encima y te hace vomitar, dejándote vulnerable durante un tiempo. Puedes agarrarlo y arrojarlo lejos para librarte de él.",
+        "peligrosidad": "Baja",
+        "ubicacion": "Salas de Residuos, Áreas Infectadas",
+        "debilidades": ["Fuerza física", "Apoyo en equipo"],
+        "estrategia": "Cuando se te acerque, agárralo rápidamente y tíralo lejos. Aprovecha el tiempo para huir o esconderte.",
+        "image": "https://res.cloudinary.com/conectart/image/upload/v1744832662/wfw6v4d8kswxzm4tmz0y.png"
+      },
+      {
+        "id": "trudge-repo",
+        "nombre": "Trudge Repo",
+        "descripcionCorta": "Entidad enorme, lenta pero con una maza letal",
+        "descripcionCompleta": "Trudge Repo es extremadamente lento, pero si logra alcanzarte, te eliminará de un solo golpe con su maza. Su tamaño lo hace fácil de detectar, pero también difícil de evadir si te encierra.",
+        "peligrosidad": "Alta",
+        "ubicacion": "Zonas Abiertas, Salas Grandes",
+        "debilidades": ["Velocidad", "Espacios reducidos"],
+        "estrategia": "Usa tu velocidad y agilidad. Nunca te acerques demasiado y trata de moverlo hacia zonas donde no pueda moverse fácilmente.",
+        "image": "https://res.cloudinary.com/conectart/image/upload/v1744830234/wpwiiqit67v3vjrzxrjn.png"
+      },
+      {
+        "id": "chef-repo",
+        "nombre": "Chef Repo",
+        "descripcionCorta": "Entidad agresiva que ataca con cuchillos",
+        "descripcionCompleta": "Chef Repo es rápido y letal. Apenas te vea, sacará cuchillos de su delantal y te los lanzará sin dudar. Su velocidad de ataque lo hace muy peligroso en espacios cerrados.",
+        "peligrosidad": "Extrema",
+        "ubicacion": "Cocina, Comedor Industrial",
+        "debilidades": ["Cobertura", "Objetos que lo distraigan"],
+        "estrategia": "Usa muebles o paredes como cobertura. No te quedes en línea recta y cambia de dirección constantemente para evitar sus cuchillos.",
+        "image": "https://res.cloudinary.com/conectart/image/upload/v1744820942/jrh3l7du9p6c5wff4erd.png"
+      },{
+        "id": "upscream-repo",
+        "nombre": "Upscream Repo",
+        "descripcionCorta": "Entidad similar a una araña que ataca desde techos y paredes",
+        "descripcionCompleta": "Upscream Repo es una criatura que se esconde en las paredes y techos, esperando el momento adecuado para lanzarse sobre los jugadores. Una vez encima, es difícil quitárselo sin ayuda.",
+        "peligrosidad": "Media",
+        "ubicacion": "Paredes, Techos, Esquinas Altas",
+        "debilidades": ["Ayuda de compañeros", "Movimiento rápido"],
+        "estrategia": "Mantén la vista hacia arriba y evita caminar pegado a las paredes. Si te ataca, pide ayuda rápidamente o sacúdelo con movimientos bruscos. Idealmente, enfréntalo en grupo.",
+        "image": "https://res.cloudinary.com/conectart/image/upload/v1744832659/h5wb6hyrfnl1tlcawwrw.png"
+      },
+      {
+        "id": "shadow-child-repo",
+        "nombre": "Shadow Child Repo",
+        "descripcionCorta": "Entidad que imita la mecánica de un Enderman: si no lo miras, no ataca",
+        "descripcionCompleta": "Shadow Child Repo se comporta como los Enderman de Minecraft. Permanecerá inmóvil si mantienes contacto visual, pero si desvías la mirada, se lanzará a atacarte.",
+        "peligrosidad": "Alta",
+        "ubicacion": "Pasillos Oscuros, Habitaciones Grandes",
+        "debilidades": ["Contacto visual", "Luz directa"],
+        "estrategia": "No le quites la vista de encima. Retrocede lentamente sin girarte y mantén una fuente de luz encendida. No lo enfrentes en espacios estrechos.",
+        "image": "https://res.cloudinary.com/conectart/image/upload/v1744830395/dxcx8vkbzuzk7u1yys4x.png"
+      },
+      {
+        "id": "rugrat-repo",
+        "nombre": "Rugrat Repo",
+        "descripcionCorta": "Entidad infantil que lanza objetos para hacer daño",
+        "descripcionCompleta": "Rugrat Repo parece inofensivo al principio, pero lanza objetos contundentes con gran precisión. Puede ser detenido si lo agarras y lo lanzas lejos.",
+        "peligrosidad": "Media",
+        "ubicacion": "Habitaciones Infantiles, Áreas con Juguetes",
+        "debilidades": ["Fuerza física", "Cobertura"],
+        "estrategia": "Usa objetos del entorno para cubrirte de sus ataques. Cuando se acerque, agárralo y lánzalo lejos para debilitarlo o ganar tiempo para huir.",
+        "image": "https://res.cloudinary.com/conectart/image/upload/v1744832659/mlzg8sjb4wkcmoc7nkjp.png"
+      }
+  ]
