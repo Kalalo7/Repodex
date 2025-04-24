@@ -58,14 +58,6 @@ Una guía interactiva completa para el juego R.E.P.O (2025 Horror), desarrollada
 
 El proyecto utiliza una paleta de colores oscura con acentos en colores secundarios para resaltar elementos importantes. La interfaz está diseñada para ser intuitiva y fácil de navegar, manteniendo la estética del juego.
 
-## 🔜 Próximas Actualizaciones
-
-- [ ] Mapa interactivo
-- [ ] Guías de estrategia avanzadas
-- [ ] Sistema de comentarios
-- [ ] Calculadora de recursos
-- [ ] Rutas de speedrun
-
 ## 🤝 Contribución
 
 ¿Quieres contribuir al proyecto? ¡Genial! Aquí hay algunas formas de hacerlo:
