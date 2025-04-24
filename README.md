@@ -81,4 +81,8 @@ Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más det
 
 ---
 
-Desarrollado con 💜 para la comunidad de R.E.P.O por [Kalalo7](https://kalalo7.github.io/Portfolio/) <mcreference link="https://kalalo7.github.io/Portfolio/" index="0">0</mcreference>
+Desarrollado con 💜 para la comunidad de R.E.P.O por [Kalalo7](https://kalalo7.github.io/Portfolio/) <mcreference link="https://kalalo7.github.io/Portfolio/" index="0"></mcreference>
+
+¿Te gusta mi trabajo? ¡Apóyame con un café! ☕
+
+<a href='https://ko-fi.com/E1E81DBER4' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi3.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
